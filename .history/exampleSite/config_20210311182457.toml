@@ -33,7 +33,7 @@ name = "author"
   identifier = "archives"
   name = "Archives"
   url = "/post/"
-  weight = 3
+  weight = 2
 
 
 [params]
