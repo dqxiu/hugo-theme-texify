@@ -4,7 +4,7 @@ hasCJKLanguage = true
 languageCode = "en"
 paginate = 5
 theme = "hugo-theme-texify"
-title = "TEST"
+title = "Qingxiu Dong"
 
 disqusShortname = ""
 googleAnalytics = ""
@@ -20,6 +20,11 @@ name = "author"
       unsafe = true
 
 [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+[[menu.main]]
   identifier = "post"
   name = "Post"
   url = "/"
@@ -29,11 +34,7 @@ name = "author"
   name = "Archives"
   url = "/post/"
   weight = 2
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 3
+
 
 [params]
   customCSS = []
